@@ -90,7 +90,7 @@ If you were to test this function, what areas or scenarios would you focus on, a
 
 ---
 
-# Task 3 — Sum Positive Numbers
+# Task 3 — Aggregate Valid Measurements
 
 ## 1) Code Review Findings
 ### Critical bugs
@@ -117,7 +117,7 @@ If you were to test this function, what areas or scenarios would you focus on, a
 
 ## 3) Explanation Review & Rewrite
 ### AI-generated explanation (original)
-> This function sums all positive numbers in the list and safely ignores invalid values.
+> This function calculates the average of valid measurements by ignoring missing values (None) and averaging the remaining values. It safely handles mixed input types and ensures an accurate average
 
 ### Issues in original explanation
 - 
